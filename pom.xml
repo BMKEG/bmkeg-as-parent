@@ -136,6 +136,14 @@
 				<artifactId>robotlegs-framework</artifactId>
 			</dependency>
 			
+			<dependency>
+				<groupId>org.robotlegs</groupId>
+				<artifactId>robotlegs-utilities-Modular</artifactId>
+				<version>0.5.3</version>
+				<type>swc</type>
+			</dependency>
+			
+			
 		</dependencies>
 	</dependencyManagement>
 	
