@@ -199,6 +199,48 @@
 				<type>swc</type>
 			</dependency>
 
+
+		<!-- 
+			
+				ooevv, kefed, cosi			
+			
+			-->
+			
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>ooevv-as</artifactId>
+			  <version>0.0.9-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>ooevv-as-services</artifactId>
+			  <version>0.0.9-SNAPSHOT</version>
+			</dependency>
+		
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>kefed-as</artifactId>
+			  <version>0.0.3-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>kefed-as-services</artifactId>
+			  <version>0.0.3-SNAPSHOT</version>
+			</dependency>
+	
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>cosi-as</artifactId>
+			  <version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+			  <groupId>edu.isi.bmkeg</groupId>
+			  <artifactId>cosi-as-services</artifactId>
+			  <version>0.0.1-SNAPSHOT</version>
+			</dependency>	
 		</dependencies>
 	</dependencyManagement>
 
