@@ -226,10 +226,29 @@
 				<type>swc</type>
 			</dependency>
 
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>lapdftextClientComponents</artifactId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>ftd-as</artifactId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>ftd-as-services</artifactId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+			</dependency>
+
 			<!-- 
-			
 				ooevv, kefed, cosi			
-			
 			-->
 			
 			<dependency>
@@ -272,7 +291,8 @@
 			  <artifactId>cosi-as-services</artifactId>
 			  <version>0.0.1-SNAPSHOT</version>
 			  <type>swc</type>
-			</dependency>	
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
