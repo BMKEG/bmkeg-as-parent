@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+	<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2008 Marvin Herman Froeder Licensed under the Apache License, 
 	Version 2.0 (the "License"); you may not use this file except in compliance 
 	with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
@@ -170,7 +170,7 @@
 				<type>swc</type>
 				<artifactId>flare</artifactId>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>com.google.code.flexlib</groupId>
 				<artifactId>flexlib</artifactId>
@@ -178,11 +178,7 @@
 				<type>swc</type>
 			</dependency>
 
-			<!-- 
-			
-				lapdftext, digitalLibrary, triage			
-			
-			-->
+			<!-- lapdftext, digitalLibrary, triage -->
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
@@ -193,14 +189,14 @@
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>triage-as</artifactId>
+				<artifactId>vpdmf-triage-as</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>triage-as-services</artifactId>
+				<artifactId>vpdmf-triage-as-services</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
@@ -214,14 +210,14 @@
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>digitalLibrary-as</artifactId>
+				<artifactId>vpdmf-digitalLibrary-as</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>digitalLibrary-as-services</artifactId>
+				<artifactId>vpdmf-digitalLibrary-as-services</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
@@ -235,62 +231,60 @@
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>ftd-as</artifactId>
+				<artifactId>vpdmf-ftd-as</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
-				<artifactId>ftd-as-services</artifactId>
+				<artifactId>vpdmf-ftd-as-services</artifactId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
 
-			<!-- 
-				ooevv, kefed, cosi			
-			-->
-			
+			<!-- ooevv, kefed, cosi -->
+
 			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>ooevv-as</artifactId>
-			  <version>0.0.9-SNAPSHOT</version>
-			  <type>swc</type>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>ooevv-as</artifactId>
+				<version>0.0.9-SNAPSHOT</version>
+				<type>swc</type>
 			</dependency>
 
 			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>ooevv-as-services</artifactId>
-			  <version>0.0.9-SNAPSHOT</version>
-			  <type>swc</type>
-			</dependency>
-		
-			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>kefed-as</artifactId>
-			  <version>0.0.3-SNAPSHOT</version>
-			  <type>swc</type>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>ooevv-as-services</artifactId>
+				<version>0.0.9-SNAPSHOT</version>
+				<type>swc</type>
 			</dependency>
 
 			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>kefed-as-services</artifactId>
-			  <version>0.0.3-SNAPSHOT</version>
-			  <type>swc</type>
-			</dependency>
-	
-			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>cosi-as</artifactId>
-			  <version>0.0.1-SNAPSHOT</version>
-			  <type>swc</type>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>kefed-as</artifactId>
+				<version>0.0.3-SNAPSHOT</version>
+				<type>swc</type>
 			</dependency>
 
 			<dependency>
-			  <groupId>edu.isi.bmkeg</groupId>
-			  <artifactId>cosi-as-services</artifactId>
-			  <version>0.0.1-SNAPSHOT</version>
-			  <type>swc</type>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>kefed-as-services</artifactId>
+				<version>0.0.3-SNAPSHOT</version>
+				<type>swc</type>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>cosi-as</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<type>swc</type>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>cosi-as-services</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<type>swc</type>
 			</dependency>
 
 		</dependencies>
@@ -299,6 +293,11 @@
 	<build>
 		<sourceDirectory>src/main/flex</sourceDirectory>
 		<testSourceDirectory>src/test/flex</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.sonatype.flexmojos</groupId>
@@ -310,16 +309,30 @@
 						<warn-no-constructor>false</warn-no-constructor>
 					</compilerWarnings>
 					<targetPlayer>${flashplayer.version.major}.${flashplayer.version.minor}</targetPlayer>
+					<includeFileSets>
+						<fileset>
+							<directory>src/main/resources</directory>
+							<includes>
+								<include>*.*</include>
+							</includes>
+						</fileset>
+					</includeFileSets>
 				</configuration>
 				<dependencies>
+					<dependency>
+		            	<groupId>org.sonatype.flexmojos</groupId>
+	        		    <artifactId>flexmojos-threadlocaltoolkit-wrapper</artifactId>
+    	        		<version>${flexmojos.version}</version>
+		          	</dependency>
 					<dependency>
 						<groupId>com.adobe.flex</groupId>
 						<artifactId>compiler</artifactId>
 						<version>${flex.version}</version>
 						<type>pom</type>
 					</dependency>
-
 				</dependencies>
+
+
 			</plugin>
 
 			<plugin>
