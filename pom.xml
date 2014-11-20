@@ -1,4 +1,4 @@
-	<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2008 Marvin Herman Froeder Licensed under the Apache License, 
 	Version 2.0 (the "License"); you may not use this file except in compliance 
 	with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
@@ -19,7 +19,7 @@
 
 	<properties>
 		<flexmojos.version>4.2-beta</flexmojos.version>
-		<flex.version>4.5.0.20967</flex.version>
+		<flex.version>4.5.1.21328</flex.version>
 		<flashplayer.version.major>10.2</flashplayer.version.major>
 		<flashplayer.version.minor>0</flashplayer.version.minor>
 		<flexunit.version>4.1-RC2</flexunit.version>
@@ -264,6 +264,13 @@
 			</dependency>
 
 			<!-- ooevv, kefed, cosi -->
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+				<artifactId>kefedClientComponents</artifactId>
+			</dependency>
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
