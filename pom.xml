@@ -188,6 +188,20 @@
 
 			<dependency>
 				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>vpdmf-bigMechIndexCards-as-services</artifactId>
+				<type>swc</type>
+				<version>1.1.5-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<artifactId>vpdmf-bigMechIndexCards-as</artifactId>
+				<type>swc</type>
+				<version>1.1.5-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
 				<version>1.1.5-SNAPSHOT</version>
 				<type>swc</type>
 				<artifactId>triageClientComponents</artifactId>
@@ -313,14 +327,14 @@
 				<version>0.0.1-SNAPSHOT</version>
 				<type>swc</type>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>com.hillelcoren</groupId>
 				<artifactId>flex-autocomplete</artifactId>
 				<version>1.2-Fx4</version>
 				<type>swc</type>
 			</dependency>
-			
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -354,10 +368,10 @@
 				</configuration>
 				<dependencies>
 					<dependency>
-		            	<groupId>org.sonatype.flexmojos</groupId>
-	        		    <artifactId>flexmojos-threadlocaltoolkit-wrapper</artifactId>
-    	        		<version>${flexmojos.version}</version>
-		          	</dependency>
+						<groupId>org.sonatype.flexmojos</groupId>
+						<artifactId>flexmojos-threadlocaltoolkit-wrapper</artifactId>
+						<version>${flexmojos.version}</version>
+					</dependency>
 					<dependency>
 						<groupId>com.adobe.flex</groupId>
 						<artifactId>compiler</artifactId>
