@@ -59,12 +59,6 @@
 		</repository>
 
 		<repository>
-			<id>as3commons</id>
-			<url>http://projects.yoolab.org/maven/content/repositories/releases/</url>
-			<name>AS3 Commons</name>
-		</repository>
-
-		<repository>
 			<id>hugin</id>
 			<name>hugin public repository</name>
 			<url>http://hugin.isi.edu:8180/nexus/content/groups/public/</url>
@@ -80,6 +74,12 @@
 			<id>hugin-3rd-party</id>
 			<name>Hugin Third Party Nexus Repository</name>
 			<url>http://hugin.isi.edu:8180/nexus/content/repositories/thirdparty/</url>
+		</repository>
+
+		<repository>
+			<id>as3commons</id>
+			<url>http://projects.yoolab.org/maven/content/repositories/releases/</url>
+			<name>AS3 Commons</name>
 		</repository>
 
 	</repositories>
