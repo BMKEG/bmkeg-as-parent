@@ -76,11 +76,6 @@
 			<url>http://hugin.isi.edu:8180/nexus/content/repositories/thirdparty/</url>
 		</repository>
 
-		<repository>
-			<id>as3commons</id>
-			<url>http://projects.yoolab.org/maven/content/repositories/releases/</url>
-			<name>AS3 Commons</name>
-		</repository>
 
 	</repositories>
 
@@ -198,6 +193,20 @@
 				<artifactId>vpdmf-bigMechIndexCards-as</artifactId>
 				<type>swc</type>
 				<version>1.1.5-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+				<artifactId>friesWorkbenchClientComponents</artifactId>
+			</dependency>
+
+			<dependency>
+				<groupId>edu.isi.bmkeg</groupId>
+				<version>1.1.5-SNAPSHOT</version>
+				<type>swc</type>
+				<artifactId>friesWorkbenchClientApp</artifactId>
 			</dependency>
 
 			<dependency>
